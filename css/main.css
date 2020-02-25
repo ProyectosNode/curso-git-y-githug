@@ -4,9 +4,22 @@ body {
     background-color: goldenrod;
     margin: 0;
 }
+.header {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+}
+.header ul {
+    text-decoration: none;
+}
+.header ul li {
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid red;
+}
 .mensaje {
     margin: 20px 40px;
-    padding: 100px 20px;
+    padding: 50px 20px;
     font-family: Courier;
     font-weight: bold;
     text-transform: uppercase;
