@@ -1,5 +1,18 @@
 body {
-    text-align: center;
-    font-family: 'Arial';
+    /* text-align: center; */
+    /* font-family: 'Arial'; */
     background-color: goldenrod;
+    margin: 0;
+}
+.mensaje {
+    margin: 20px 40px;
+    padding: 100px 20px;
+    font-family: Courier;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border: 1px solid red;
+    display: block;
+    text-align: center;
+    color: blue;
 }
